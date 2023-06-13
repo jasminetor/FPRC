@@ -1,5 +1,6 @@
 # FPRC strategy demo
-waiting for new decides, the code is closed temporary. you can check the appendix first.
+
+waiting for new decides, the code is closed temporary. **you can check the appendix first**.
 
 ## The following content is not available until our work is received. Please wait for it:)
 
