@@ -1,7 +1,7 @@
 # FPRC strategy demo
 waiting for new decides, the code is closed temporary. you can check the appendix first.
 
-## The following content is not available before we get the public permission of our paper. Please wait for the publication.
+## The following content is not available before our paper get received. Please wait for it:)
 
 ![platform](./docimg/platform.svg) ![dependencies](./docimg/dependencies.svg) ![License](./docimg/license.svg)  ![Contributors](./docimg/contributors.svg)  ![Reposize](./docimg/reposize.svg)
 
@@ -32,7 +32,7 @@ To run the demo properly, your computer needs to meet the following requirements
 
 You can run the python file to get the comparison and analysis results of all the strategies. Enter `python .\RunMe.py --help` in your `cmd` or `powershell` console to get the usage instructions.
 ```powershell
-DMRdemo> python .\RunMe.py --help
+FPRCdemo> python .\RunMe.py --help
 	
 usage: RunMe.py [-h] [--r R] [--d D]
 	
@@ -49,9 +49,9 @@ optional arguments:
 	
 	- `performance`: strategies performance, contains "total_wealth", "sharpe ratio", "information ratio", "alpha", "beta", "annualized_return", "annualized_volatility", "drawdown_period", "max_drawdown", "annual_turnover", "mean_excess_return", "calmar ratio", "run_time".
 	
-	- `heatmaps`: calculate the heat maps of DMR strategy in all the dataset.
+	- `heatmaps`: calculate the heat maps of FPRC strategy in all the dataset.
 	
-	- `heatmaps_alpha`: calculate the heat maps of alpha_k of DMR strategy in all the dataset.
+	- `heatmaps_alpha`: calculate the heat maps of alpha_k of FPRC strategy in all the dataset.
 	
 		for example: `--r="performance"` will calculate the performance of all the strategies. 
 	
@@ -98,7 +98,7 @@ python ./RunMe.py --r="performance" --d="msci, FS100"
 
 This command will run the performance results of all strategies on the msci dataset. The results are saved in the `./results/performance` folder.
 
-### Running 'heatmaps' of DMR strategy in all the dataset
+### Running 'heatmaps' of FPRC strategy in all the dataset
 
 The following two commands have the same effect.
 ```powershell
@@ -110,15 +110,15 @@ or
 python ./RunMe.py --r="heatmaps"
 ```
 
-This command will include a heat map of DMR strategy in all the datasets placed in the `./data` folder. The results are saved in `./result/heatmaps`.
+This command will include a heat map of FPRC strategy in all the datasets placed in the `./data` folder. The results are saved in `./result/heatmaps`.
 
-### Running 'heatmaps_alpha' of DMR strategy in dataset 'msci'
+### Running 'heatmaps_alpha' of FPRC strategy in dataset 'msci'
 
 ```powershell
 python ./RunMe.py --r="heatmaps_alpha" --d="msci"
 ```
 
-This command will test the cumulative wealth of DMR strategies with different alpha_k on the 'msci' dataset. 
+This command will test the cumulative wealth of FPRC strategies with different alpha_k on the 'msci' dataset. 
 
 ## Disclaimer
 
